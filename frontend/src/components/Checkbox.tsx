@@ -15,7 +15,7 @@ export const Checkbox = ({ checked, onChange }: CheckboxProps) => {
           className="sr-only"
         />
         <div 
-          className={`w-[18px] h-[18px] rounded-[4px] border transition-colors flex items-center justify-center cursor-pointer
+          className={`w-4.5 h-4.5 rounded-sm border transition-colors flex items-center justify-center cursor-pointer
             ${checked 
               ? 'bg-[#2662F3] border-[#2662F3]' 
               : 'bg-white border-[#BCC3D0]'
